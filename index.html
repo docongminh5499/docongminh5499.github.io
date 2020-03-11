@@ -78,7 +78,7 @@
             <i class="fas fa-phone"></i>
             <p>033 823 4362</p>
           </div>
-          <a href="/" target="_blank">DOWNLOAD MY RESUME</a>
+          <a href="./public/cv_pdf/CV.pdf" target="_blank">DOWNLOAD MY RESUME</a>
         </div>
       </div>
       <div class="about__icon">
@@ -248,12 +248,13 @@
           <h2>CONTACT ME</h2>
           <p>Agree - It's time to get in touch</p>
         </div>
-        <form>
-          <input placeholder="Name" type="text" name="name" />
-          <input placeholder="Email" type="email" name="email" />
-          <input placeholder="Phone" type="tel" name="phone" />
-          <textarea placeholder="Message" rows="4" name="message"></textarea>
-          <input type="button" value="SEND ME" />
+        <form action="https://formspree.io/xqklzlnw" method="POST">
+          <input type="hidden" name="_subject" value="Website CV contact" />
+          <input placeholder="Name" type="text" name="Name" required />
+          <input placeholder="Email" type="email" name="Email" required />
+          <input placeholder="Phone" type="tel" name="Phone" required />
+          <textarea placeholder="Message" rows="4" name="Message" required></textarea>
+          <button type="submit">SEND ME</button>
         </form>
       </div>
     </div>

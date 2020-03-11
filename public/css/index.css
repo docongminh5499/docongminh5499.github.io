@@ -867,7 +867,7 @@ body,
   outline: none;
 }
 
-.contact__container > .contact__form > form > input[type='button'] {
+.contact__container > .contact__form > form >button{
   width: 30%;
   margin-top: 2rem;
   border: none;
@@ -882,7 +882,7 @@ body,
   transition: all 0.1s ease-in-out;
 }
 
-.contact__container > .contact__form > form > input[type='button']:hover {
+.contact__container > .contact__form > form > button:hover {
   opacity: 0.8;
 }
 
@@ -899,7 +899,9 @@ body,
   .contact__container .contact__form {
     width: 80%;
   }
-
+  .contact__container > .contact__form > form > * {
+    width: 100%;
+  }
   .header__container .header__navbar h1 {
     font-size: 2.5rem;
     padding: 0.2em 0;
