@@ -1,3 +1,1 @@
 # docongminh5499.github.io
-
-This is repo for my website CV, which contains all about myself, my skills and experiences, my projects and more...
