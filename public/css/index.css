@@ -886,6 +886,11 @@ body,
   opacity: 0.8;
 }
 
+.in-process {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
 @media screen and (max-width: 768px) {
   :root {
     font-size: 11px;
